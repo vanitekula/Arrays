@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp5
+{
+    class Class2
+    {
+        static void Main(string[] args) // Initialising the values
+        {
+            int[] vals = { 12, 23, 34, 45, 56 };
+            string[] snames = { "asdf", "bdfdf", "cfsdf" };
+            Console.WriteLine( vals.Length);
+            Console.WriteLine(snames.Length);
+            Console.WriteLine("Integers are ");
+            foreach(int i in vals)
+            {
+                Console.WriteLine(i);
+            }
+            Console.WriteLine("Elements are");
+            foreach(string a in snames)
+            {
+                Console.WriteLine(a);
+            }
+        }
+    }
+}
