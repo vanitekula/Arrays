@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp5
+{
+    class Class4
+    {
+        static void Main(string[] args) //Initialising the elements 
+        {
+            int[,] array = { { 1, 2, 3 }, { 2, 3, 4 } };
+            for (int i = 0; i < 2; i++) // rows
+            {
+                for (int j = 0; j < 3; j++) // columns 
+                {
+                    Console.Write($"{array[i,j]}\t");
+                }
+                Console.WriteLine();
+            }
+        }
+    }
+}
